@@ -1,0 +1,68 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="@drawable/studentsdashbmg"
+		android:orientation="horizontal">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="350dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical"
+			android:layout_gravity="center_horizontal|center_vertical">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="100dp"
+				android:layout_height="100dp"
+				android:src="@drawable/zoomlogo"
+				android:scaleType="fitXY" />
+			<EditText
+				android:id="@+id/edittext1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:textSize="14sp"
+				android:textColor="#000000"
+				android:hint="Next Class (date &amp; time)"
+				android:textColorHint="#607D8B" />
+			<EditText
+				android:id="@+id/edittext2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:textSize="14sp"
+				android:textColor="#000000"
+				android:hint="Lesson"
+				android:textColorHint="#607D8B" />
+			<EditText
+				android:id="@+id/edittext3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:textSize="14sp"
+				android:textColor="#000000"
+				android:hint="Meeting Link"
+				android:textColorHint="#607D8B" />
+			<Button
+				android:id="@+id/button1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="#FDD835"
+				android:text="UPLOAD"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#000000" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
